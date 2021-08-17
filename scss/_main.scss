@@ -1,0 +1,40 @@
+main{
+    padding: 2%;
+    background:  linear-gradient(to top, lightblue, pink) no-repeat;
+    .present{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .present__mainPick{
+        width: ($width - 20);
+        
+    }
+    .historia__babyPick{
+        width: ($width - 80);
+    }
+    .enter__box{
+      
+        display: flex;
+        flex-direction: column;
+    }
+    .show__post{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: ($width);
+        
+    }
+
+    form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(to top, lightblue, pink) no-repeat;
+    }
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

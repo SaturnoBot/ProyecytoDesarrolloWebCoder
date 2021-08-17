@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+nav {
+  padding: 10px; }
+  nav img {
+    width: 150px;
+    animation-name: animateLogo;
+    animation-iteration-count: initial;
+    animation-duration: 1s; }
+  nav a {
+    font-size: 2rem; }
+  nav .collapse {
+    justify-content: space-evenly; }
+
+header {
+  background: pink; }
+
+main {
+  padding: 2%;
+  background: linear-gradient(to top, lightblue, pink) no-repeat; }
+  main .present {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  main .present__mainPick {
+    width: 80%; }
+  main .historia__babyPick {
+    width: 20%; }
+  main .enter__box {
+    display: flex;
+    flex-direction: column; }
+  main .show__post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+  main form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to top, lightblue, pink) no-repeat; }
+  main fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+footer {
+  background-color: lightblue; }
+  footer .donate {
+    display: flex;
+    align-items: center; }

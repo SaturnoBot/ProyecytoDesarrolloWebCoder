@@ -1,0 +1,19 @@
+nav{
+
+    padding: 10px;
+  
+    
+    img{
+        width: 150px;
+        animation-name: animateLogo;
+        animation-iteration-count: initial;
+        animation-duration: 1s;
+    }
+    a{
+        font-size: 2rem;
+    }
+    .collapse{
+        
+        justify-content: space-evenly;
+    }
+}
