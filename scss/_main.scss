@@ -1,14 +1,21 @@
 main{
+    
     padding: 2%;
     background:  linear-gradient(to top, lightblue, pink) no-repeat;
     .present{
         display: flex;
-        align-items: center;
+       
         flex-direction: column;
     }
-    .present__mainPick{
-        width: ($width - 20);
+    a{
+        padding-top: 5px;
+        display: flex;
+        justify-content: center
         
+        
+    }
+    .present__mainPick{
+        width: ($width - 35);
     }
     .historia__babyPick{
         width: ($width - 80);
@@ -36,5 +43,9 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .carruselFondo{
+    display: flex;
+    justify-content: center;
     }
 }

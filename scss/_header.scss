@@ -1,5 +1,53 @@
 header{
-   
+    font-family: $fontTitle;
     background: $mainColor;
+    font-size: 50%;
+}
+    h1{
+        display: flex;
+        justify-content: center;
     
+    }
+   
+   a{
+    display: flex;
+    justify-content: center
+
+
+}
+   img{
+    width: 150px;
+    animation-name: animateLogo;
+    animation-iteration-count: initial;
+    animation-duration: 1s;
+    
+}
+
+@media only screen and (min-width: 990px){
+
+    img{
+        width: 150px;
+        animation-name: animateLogo;
+        animation-iteration-count: initial;
+        animation-duration: 1s;
+    }
+    .nav-item{
+        background: linear-gradient(to top, pink,  lightblue);
+        border: solid 5px linear-gradient(to top,pink, lightblue);
+        border-radius: 5px ;
+        
+    
+    }
+    .nav-item:hover{
+        background: lightblue;
+        text-decoration-color: pink;
+        border: solid 5px lightblue;
+        border-radius: 5px;
+    
+}
+    
+    .botones{
+        display: flex;
+        flex-direction: row;
+    }
 }

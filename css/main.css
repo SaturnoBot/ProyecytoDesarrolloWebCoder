@@ -1,32 +1,67 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 * {
-  margin: 0;
+  margin-left: 5%;
+  margin-right: 5%;
   padding: 0; }
 
 nav {
   padding: 10px; }
-  nav img {
+  nav a {
+    font-size: 2rem; }
+  nav .collapse {
+    list-style-type: none;
+    justify-content: space-evenly; }
+
+header {
+  font-family: "Dancing Script", cursive;
+  background: pink;
+  font-size: 50%; }
+
+h1 {
+  display: flex;
+  justify-content: center; }
+
+a {
+  display: flex;
+  justify-content: center; }
+
+img {
+  width: 150px;
+  animation-name: animateLogo;
+  animation-iteration-count: initial;
+  animation-duration: 1s; }
+
+@media only screen and (min-width: 990px) {
+  img {
     width: 150px;
     animation-name: animateLogo;
     animation-iteration-count: initial;
     animation-duration: 1s; }
-  nav a {
-    font-size: 2rem; }
-  nav .collapse {
-    justify-content: space-evenly; }
-
-header {
-  background: pink; }
+  .nav-item {
+    background: linear-gradient(to top, pink, lightblue);
+    border: solid 5px linear-gradient(to top, pink, lightblue);
+    border-radius: 5px; }
+  .nav-item:hover {
+    background: lightblue;
+    text-decoration-color: pink;
+    border: solid 5px lightblue;
+    border-radius: 5px; }
+  .botones {
+    display: flex;
+    flex-direction: row; } }
 
 main {
   padding: 2%;
   background: linear-gradient(to top, lightblue, pink) no-repeat; }
   main .present {
     display: flex;
-    align-items: center;
     flex-direction: column; }
+  main a {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center; }
   main .present__mainPick {
-    width: 80%; }
+    width: 65%; }
   main .historia__babyPick {
     width: 20%; }
   main .enter__box {
@@ -46,9 +81,14 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center; }
+  main .carruselFondo {
+    display: flex;
+    justify-content: center; }
 
 footer {
   background-color: lightblue; }
+  footer .mercadoPago {
+    width: 85%; }
   footer .donate {
     display: flex;
     align-items: center; }
