@@ -1,5 +1,7 @@
 main{
-    
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
     padding: 2%;
     background:  linear-gradient(to top, lightblue, pink) no-repeat;
     .present{
@@ -17,7 +19,9 @@ main{
     .present__mainPick{
         width: ($width - 35);
     }
+  
     .historia__babyPick{
+       display: flex;
         width: ($width - 80);
     }
     .enter__box{
@@ -44,8 +48,6 @@ main{
         flex-direction: column;
         align-items: center;
     }
-    .carruselFondo{
-    display: flex;
-    justify-content: center;
-    }
+  
+   
 }

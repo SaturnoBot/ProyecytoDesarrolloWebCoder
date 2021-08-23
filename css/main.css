@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 * {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0%;
   padding: 0; }
+body{
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 nav {
   padding: 10px; }
@@ -51,6 +54,9 @@ img {
     flex-direction: row; } }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 2%;
   background: linear-gradient(to top, lightblue, pink) no-repeat; }
   main .present {
@@ -63,6 +69,7 @@ main {
   main .present__mainPick {
     width: 65%; }
   main .historia__babyPick {
+    display: flex;
     width: 20%; }
   main .enter__box {
     display: flex;
@@ -81,9 +88,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  main .carruselFondo {
-    display: flex;
-    justify-content: center; }
+
 
 footer {
   background-color: lightblue; }
