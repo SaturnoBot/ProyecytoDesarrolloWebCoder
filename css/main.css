@@ -92,3 +92,7 @@ footer {
   footer .donate {
     display: flex;
     align-items: center; }
+
+body {
+  margin-right: 10%;
+  margin-left: 10%; }
