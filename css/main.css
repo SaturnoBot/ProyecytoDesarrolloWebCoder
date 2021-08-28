@@ -63,10 +63,13 @@ main {
     display: flex;
     justify-content: center; }
   main .present__mainPick {
-    width: 65%; }
+    width: 85%; }
+  @media only screen and (min-width: 990px) {
+    main .historia__babyPick {
+      width: 50%; } }
   main .historia__babyPick {
     display: flex;
-    width: 20%; }
+    width: 70%; }
   main .enter__box {
     display: flex;
     flex-direction: column; }
@@ -87,11 +90,13 @@ main {
 
 footer {
   background-color: lightblue; }
-  footer .mercadoPago {
-    width: 85%; }
-  footer .donate {
+  footer .MP {
+    width: 200px; }
+  footer .redesLogo {
+    width: 70px; }
+  footer .mail {
     display: flex;
-    align-items: center; }
+    font-size: 80%; }
 
 body {
   margin-right: 10%;

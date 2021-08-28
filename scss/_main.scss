@@ -17,12 +17,16 @@ main{
         
     }
     .present__mainPick{
-        width: ($width - 35);
+        width: ($width - 15);
     }
-  
+@media only screen and (min-width: 990px){
+    .historia__babyPick{
+        width: ($width - 50);
+    }
+}
     .historia__babyPick{
        display: flex;
-        width: ($width - 80);
+        width: ($width - 30);
     }
     .enter__box{
       

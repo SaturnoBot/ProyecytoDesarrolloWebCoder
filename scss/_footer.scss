@@ -1,11 +1,14 @@
 footer{
     background-color: lightblue;
-    .mercadoPago{
-        width: ($width - 15);
+    .MP{
+        width: 200px;
+    }
+    .redesLogo{
+        width: 70px;
     }
 
-    .donate{
+    .mail{
         display: flex;
-        align-items: center;
+        font-size: 80%;
     }
 }
