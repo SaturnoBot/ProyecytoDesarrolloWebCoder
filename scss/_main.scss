@@ -24,6 +24,11 @@ main{
         margin-right: 5%;
         margin-left: 5%;
     }
+    .error{
+        display: flex;
+        flex-direction: column;
+        background-color: linear-gradient(to top, lightblue, pink) no-repeat;
+    }
 @media only screen and (min-width: 990px){
     .historia__babyPick{
         width: ($width - 50);
