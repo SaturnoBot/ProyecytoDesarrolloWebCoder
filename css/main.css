@@ -64,6 +64,10 @@ main {
     justify-content: center; }
   main .present__mainPick {
     width: 85%; }
+  main .inputButton {
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%; }
   @media only screen and (min-width: 990px) {
     main .historia__babyPick {
       width: 50%; } }
@@ -97,7 +101,3 @@ footer {
   footer .mail {
     display: flex;
     font-size: 80%; }
-
-body {
-  margin-right: 10%;
-  margin-left: 10%; }

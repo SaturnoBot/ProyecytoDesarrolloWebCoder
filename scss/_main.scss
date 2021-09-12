@@ -19,6 +19,11 @@ main{
     .present__mainPick{
         width: ($width - 15);
     }
+    .inputButton{
+        margin-top: 2%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 @media only screen and (min-width: 990px){
     .historia__babyPick{
         width: ($width - 50);
@@ -29,7 +34,6 @@ main{
         width: ($width - 30);
     }
     .enter__box{
-      
         display: flex;
         flex-direction: column;
     }
@@ -37,8 +41,7 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: ($width);
-        
+        width: ($width);    
     }
 
     form{
