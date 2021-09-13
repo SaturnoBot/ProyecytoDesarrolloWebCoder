@@ -13,8 +13,6 @@ main{
         padding-top: 5px;
         display: flex;
         justify-content: center
-        
-        
     }
     .present__mainPick{
         width: ($width - 15);
@@ -24,10 +22,8 @@ main{
         margin-right: 5%;
         margin-left: 5%;
     }
-    .error{
-        display: flex;
-        flex-direction: column;
-        background-color: linear-gradient(to top, lightblue, pink) no-repeat;
+    .error__img{
+        width: 400px;
     }
 @media only screen and (min-width: 990px){
     .historia__babyPick{
@@ -55,6 +51,7 @@ main{
         flex-direction: column;
         background: linear-gradient(to top, lightblue, pink) no-repeat;
     }
+
     fieldset{
         display: flex;
         flex-direction: column;

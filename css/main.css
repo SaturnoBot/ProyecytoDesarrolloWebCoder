@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 * {
   margin: 0%;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
 
 nav {
   padding: 10px; }
@@ -68,10 +69,8 @@ main {
     margin-top: 2%;
     margin-right: 5%;
     margin-left: 5%; }
-  main .error {
-    display: flex;
-    flex-direction: column;
-    background-color: linear-gradient(to top, lightblue, pink) no-repeat; }
+  main .error__img {
+    width: 400px; }
   @media only screen and (min-width: 990px) {
     main .historia__babyPick {
       width: 50%; } }
@@ -105,3 +104,12 @@ footer {
   footer .mail {
     display: flex;
     font-size: 80%; }
+  footer a {
+    text-decoration: none; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  background: lightblue; }
